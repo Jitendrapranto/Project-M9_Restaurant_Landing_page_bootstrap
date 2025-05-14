@@ -14,7 +14,7 @@
 <body class="bg-dark">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md p-3 sticky-top navbar-dark" style="background-color: rgb(30, 3, 56)">
+  <nav class="navbar navbar-expand-md p-3 sticky-top bg-primary bg-gradient navbar-dark" >
     <div class="container">
       <a class="navbar-brand text-white" href="#">
         <span class="h1 fw-bold text-danger">f</span>oodbuzz</a>
@@ -76,68 +76,81 @@
   </section>
 
     <!-- Featured Items -->
-
-  <section class="">
-    <div id="menu" class="container-fluid  pt-5">
-      <div class="row justify-content-evenly">
-
-        <!-- 🥗 Salads -->
-        <div class="col-md-4 col-lg-3">
-          <div class="card shadow-lg h-75">
-            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="card-img-top h-50" alt="Salad">
-            <div class="card-body">
-              <h5 class="card-title">🥗 Salads</h5>
-              <p class="card-text fst-italic">A refreshing burst of crisp greens, vibrant veggies, and bold flavors in
-                every bite.</p>
-              <div class="d-flex justify-content-between align-content-center">
-                <p class="text-primary fw-bold">$25.00</p>
-                <a href="#" class="btn btn-outline-primary">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 🍕 Pizza -->
-        <div class="col-md-4 col-lg-3">
-          <div class="card shadow-lg h-75">
-            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" class="card-img-top h-50"
-              alt="Pizza">
-            <div class="card-body">
-              <h5 class="card-title">🍕 Pizza</h5>
-              <p class="card-text fst-italic">Stone-baked perfection with gooey cheese, rich sauce, and irresistible
-                toppings.</p>
-              <div class="d-flex justify-content-between align-content-center">
-                <p class="text-primary fw-bold">$55.00</p>
-                <a href="#" class="btn btn-outline-primary">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 🍔 Burger -->
-        <div class="col-md-4 col-lg-3">
-          <div class="card shadow-lg h-75">
-            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top h-50"
-              alt="Burger">
-            <div class="card-body">
-              <h5 class="card-title">🍔 Burger</h5>
-              <p class="card-text fst-italic">Thick, juicy, and stacked—our burgers are a bite of pure satisfaction.</p>
-              <div class="d-flex justify-content-between align-content-center">
-                <p class="text-primary fw-bold">$45.00</p>
-                <a href="#" class="btn btn-outline-primary">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <section>
+  <div id="menu" class="container-fluid py-5">
+    <div class="row justify-content-evenly text-white mb-4">
+      <div class="col-12 text-center">
+        <h2 class="display-5 fw-bold">Featured Items</h2>
+        <p class="lead">Taste the most popular dishes</p>
       </div>
     </div>
-  </section>
+    <div class="row justify-content-evenly g-4">
+
+      <!-- 🥗 Salads -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 shadow overflow-hidden">
+          <div class="ratio ratio-4x3">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+              class="img-fluid object-fit-cover w-100 h-100" alt="Salad">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">🥗 Salad</h5>
+            <p class="card-text fst-italic">A refreshing burst of crisp greens, vibrant veggies, and bold flavors in
+                every bite.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$25.00</span>
+              <a href="#" class="btn btn-outline-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🍕 Pizza -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 shadow overflow-hidden">
+          <div class="ratio ratio-4x3">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+              class="img-fluid object-fit-cover w-100 h-100" alt="Pizza">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">🍕 Pizza</h5>
+            <p class="card-text fst-italic">Stone-baked perfection with gooey cheese, rich sauce, and irresistible
+                toppings.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$55.00</span>
+              <a href="#" class="btn btn-outline-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🍔 Burger -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 shadow overflow-hidden">
+          <div class="ratio ratio-4x3">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+              class="img-fluid object-fit-cover w-100 h-100" alt="Burger">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">🍔 Burger</h5>
+            <p class="card-text fst-italic">Thick, juicy, and stacked—our burgers are a bite of pure satisfaction.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$45.00</span>
+              <a href="#" class="btn btn-outline-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   <!-- About-section -->
 
   <section class="">
-    <div id="about" class="container-fluid pb-5">
+    <div id="about" class="container-fluid py-5">
       <div class="row  align-items-center justify-content-between">
         <div class="col-md-6">
           <img class="img-fluid rounded shadow" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="">
